@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Without Fear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voice Without Fear</h1>
+        <p>A safe space to express your feelings — anonymously.</p>
+    </header>
+
+    <main>
+        <section class="warning">
+            ?? <strong>Do NOT include:</strong> your name, the abuser’s name, location, contact details, or any identifying information.
+        </section>
+
+        <form id="storyForm">
+            <label for="story">Your Story / Feelings:</label>
+            <textarea id="story" name="story" placeholder="Share how you feel... This is a safe and anonymous space." required></textarea>
+            
+            <button type="submit">Submit Anonymously</button>
+        </form>
+
+        <p id="confirmation" class="hidden">? Thank you for sharing. Your voice matters.</p>
+    </main>
+
+    <footer>
+        <p>You're not alone. This space is for healing, not for blame. ??</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
